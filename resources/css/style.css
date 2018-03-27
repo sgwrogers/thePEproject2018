@@ -214,14 +214,20 @@ nav select:hover {
   align-items: center;
 }
 
+.about a:hover {
+  color: #fff;
+}
+
 .about-left {
   width: auto;
   margin-top: 2rem;
   margin-left: 11rem;
+  margin-right: 2rem;
 }
 
 .about-left img {
   height: 15rem;
+  padding-bottom: 2rem;
 }
 
 .about-middle {
