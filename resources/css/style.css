@@ -432,7 +432,7 @@ nav select:hover {
 }
 
 #lessonplans:hover {
-  background: url("../images/LessonPlansGreenIcon.png") no-repeat center center;
+  background: url("../images/LessonPlansGreenIconBigger.png") no-repeat center center;
   background-size: contain;
 }
 
