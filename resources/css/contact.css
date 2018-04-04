@@ -132,6 +132,12 @@ nav select:hover {
 }
 
 /* Form */
+.background {
+    background: url("../images/contact/PEProject-ContactUsBG-Bigger.png") no-repeat center center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 
 .container {
   max-width: 400px;
@@ -151,7 +157,7 @@ nav select:hover {
 #contact {
   background: #F7F4F1;
   padding: 25px;
-  margin: 150px 0;
+  margin: 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 

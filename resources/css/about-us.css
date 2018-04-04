@@ -158,7 +158,7 @@ p, ol, li {
 }
 
 .about-us-intro p {
-  padding: 0 2rem 1rem 15rem;
+  padding: 0 2rem 2rem 15rem;
 }
 
 
@@ -167,7 +167,7 @@ p, ol, li {
   position: relative;
   float: right;
   margin-right: 15rem;
-  top: 4rem;
+  top: 3rem;
 }
 
 #world2 {
@@ -189,7 +189,7 @@ p, ol, li {
     margin-right: 11rem;
   }
   .about-us-intro p {
-    padding: 0 2rem 1rem 11rem;
+    padding: 0 2rem 2rem 11rem;
   }
 }
 
@@ -212,7 +212,7 @@ p, ol, li {
   }
 
   .about-us-intro p {
-    padding: 0 2rem 1rem 5rem;
+    padding: 0 2rem 2rem 5rem;
   }
 }
 
@@ -235,7 +235,7 @@ p, ol, li {
     top: 4.5rem;
   }
   .about-us-intro p {
-    padding: 0 2rem 1rem 3rem;
+    padding: 0 2rem 2rem 3rem;
   }
 }
 @media only screen and (max-width: 766px) {
@@ -246,7 +246,7 @@ p, ol, li {
     margin-right: 1.5rem;
   }
   .about-us-intro p {
-    padding: 0 1.5rem 1rem 1.5rem;
+    padding: 0 1.5rem 2rem 1.5rem;
   }
  }
 
@@ -265,13 +265,14 @@ p, ol, li {
     flex-direction: column;
   }
   .about-us-intro p {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   #world2 {
     display: block;
     height: 15rem;
     margin: 0 auto;
+    padding-bottom: 2rem;
   }
 }
 
@@ -283,35 +284,35 @@ p, ol, li {
 
 /* Vision */
 .vision {
-  background: linear-gradient(#99D1F4, #fff);
+  background: #BED63A;
 }
 .vision .blueheader {
-  margin: 4rem 0 1rem 15rem;
+  margin: 2rem 0 1rem 15rem;
 }
 
 .vision p {
-  padding: 1rem 15rem 1rem 15rem;
+  padding: 1rem 15rem 2rem 15rem;
 }
 
 @media only screen and (max-width: 1372px) {
   .vision .blueheader {
-    margin: 4rem 0 1rem 11rem;
+    margin: 2rem 0 1rem 11rem;
   }
   .vision p {
-    padding: 1rem 11rem 1rem 11rem;
+    padding: 1rem 11rem 2rem 11rem;
   }
 }
 @media only screen and (max-width: 1168px) {
   .vision .blueheader {
-    margin: 4rem 0 1rem 5rem;
+    margin: 2rem 0 1rem 5rem;
   }
   .vision p {
-    padding: 1rem 5rem 1rem 5rem;
+    padding: 1rem 5rem 2rem 5rem;
   }
 }
 @media only screen and (max-width: 871px) {
   .vision .blueheader {
-    margin: 4rem 0 1rem 3rem;
+    margin: 2rem 0 1rem 3rem;
   }
   .vision p {
     padding: 1rem 3rem 1rem 3rem;
@@ -320,7 +321,7 @@ p, ol, li {
 
 @media only screen and (max-width: 766px) {
   .vision .blueheader {
-    margin: 4rem 0 1rem 1.5rem;
+    margin: 2rem 0 1rem 1.5rem;
   }
   .vision p {
     padding: 1rem 1.5rem 1rem 1.5rem;
@@ -335,22 +336,21 @@ p, ol, li {
 
 /* Philsophy */
 .philosophy {
-  background: linear-gradient(#fff, #99D1F4, #fff);
-}
-
-.philosophy .blueheader {
-  padding: 3rem 0 2rem 15rem;
+  background: linear-gradient(#99D1F4, #fff);
 }
 
 /* We Believe */
 .webelieve {
+  background: #F7F4F1;
   padding: 0 15rem 2rem 15rem;
 }
 
-.webelieve p {
-  padding-top: 0;
-  padding-bottom: 2rem;
+.webelieve .blueheader {
+  padding: 2rem 0 2rem 0rem;
+}
 
+.webelieve p {
+  margin-bottom: 2rem;
 }
 
 .webelieve ul li {
@@ -361,24 +361,24 @@ p, ol, li {
 }
 
 @media only screen and (max-width: 1372px) {
-  .philosophy .blueheader {
-    padding: 3rem 0 2rem 11rem;
+  .webelieve .blueheader {
+    padding: 2rem 0 2rem 0;
   }
   .webelieve {
     padding: 0 11rem 2rem 11rem;
   }
 }
 @media only screen and (max-width: 1168px) {
-  .philosophy .blueheader {
-    padding: 3rem 0 2rem 5rem;
+  .webelieve .blueheader {
+    padding: 2rem 0 2rem 0;
   }
   .webelieve {
     padding: 0 5rem 2rem 5rem;
   }
 }
 @media only screen and (max-width: 871px) {
-  .philosophy .blueheader {
-    padding: 3rem 0 2rem 3rem;
+  .webelieve .blueheader {
+    padding: 2rem 0 2rem 0;
   }
   .webelieve {
     padding: 0 3rem 2rem 3rem;
@@ -386,8 +386,8 @@ p, ol, li {
 }
 
 @media only screen and (max-width: 766px) {
-  .philosophy .blueheader {
-    padding: 3rem 0 2rem 1.5rem;
+  .webelieve .blueheader {
+    padding: 2rem 0 2rem 0;
   }
   .webelieve {
     padding: 0 1.5rem 2rem 1.5rem;
