@@ -476,7 +476,7 @@ nav select:hover {
 }
 
 #differentiation {
-  background: url("../images/DifferentiationIcon-Grey.png") no-repeat center center;
+  background: url("../images/DifferentiationIcon-grey.png") no-repeat center center;
   background-size: contain;
 }
 
@@ -552,7 +552,7 @@ nav select:hover {
   color: #B5AB9A;
 }
 #engagement {
-  background: url("../images/StudentEngagementIcon-Grey.png") no-repeat center center;
+  background: url("../images/StudentEngagementIcon-grey.png") no-repeat center center;
   background-size: contain;
 }
 
