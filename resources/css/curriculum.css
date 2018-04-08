@@ -1,0 +1,821 @@
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+body {
+  background-color: white;
+}
+
+p, ol, li {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.blueheader {
+  height: 3.5rem;
+}
+
+.orange {
+  color: #DE572F;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange-lc {
+  color: #DE572F;
+  font-weight: bold;
+}
+
+.gray {
+  color: #58595B;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.gray-lc {
+  color: #58595B;
+  font-weight: bold;
+}
+
+.blue-bold {
+  color: #008CE3;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.black-bold {
+  color: #000;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.lite-blue {
+  color: #57B6DD;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lite-blue-lc {
+  color: #57B6DD;
+  font-weight: bold;
+}
+
+.green {
+  color: #D6DA2D;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange2 {
+  color: #D86C1C;
+}
+
+.bold {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.white-lc {
+  color: white;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1051px) {
+  .blueheader {
+    height: 3rem;
+  }
+  p, ol, li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .blueheader {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .blueheader {
+    height: 2rem;
+  }
+  p, ol, li {
+    font-size: 0.85rem;
+  }
+}
+
+.article a:link,
+.article a:visited,
+.article a:active {
+  color: #58595B;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/* curriculum Why */
+.curriculum-intro {
+  background: linear-gradient(#99D1F4, #fff);
+}
+.curriculum-intro .blueheader {
+  margin: 2rem 0 1rem 15rem;
+}
+
+.blueheader-mob {
+  display: none;
+}
+
+.curriculum-intro-why {
+  display: flex;
+}
+
+.curriculum-intro-why p {
+  padding: 1rem 1rem 2rem 15rem;
+}
+
+#map {
+  height: 9rem;
+  position: relative;
+  float: right;
+  margin-right: 15rem;
+  top: 6rem;
+}
+
+.teaching-styles a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1320px) {
+  .curriculum-intro .blueheader {
+    margin-left: 11rem;
+  }
+  #map {
+    margin-right: 11rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .curriculum-intro .blueheader {
+    margin-left: 5rem;
+  }
+  #map {
+    margin-right: 5rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .curriculum-intro .blueheader {
+    margin-left: 3rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 0;
+  }
+
+  #map {
+    height: 14rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    top: 4.5rem;
+  }
+}
+
+@media only screen and (max-width: 621px) {
+    #map {
+      top: 0;
+    }
+}
+
+@media only screen and (max-width: 546px) {
+    #map {
+      display: none;
+    }
+
+    .curriculum-intro .blueheader {
+      display: none;
+    }
+    .curriculum-intro .blueheader-mob {
+      display: block;
+      margin-left: 1.5rem;
+      height: 2rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .curriculum-intro-why p {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-bottom: 1rem;
+      padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 299px) {
+  .curriculum-intro .blueheader-mob {
+    height: 1.9rem;
+  }
+}
+
+/* Categories of Games Activities  */
+.activities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #57B6DD;
+  padding: 2rem 10rem;
+}
+
+.block {
+  width: 18.5rem;
+  height: 28rem;
+  margin: 1rem 1rem 2rem 0.5rem;
+  background-color: #BED63A;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.activities p {
+  padding: 1rem 5rem 1rem 5rem;
+  color: white;
+}
+
+.block p {
+  color: #58595B;
+}
+
+.block-head {
+  width: 100%;
+  background-color: #BED63A;
+}
+
+.block-head img {
+  margin: 2rem 0 0 1rem;
+  margin-bottom: -4px;
+  height: 3.5rem;
+}
+
+.block:nth-child(2) .block-head img,
+.block:nth-child(9) .block-head img {
+  height: 6.5rem;
+}
+.block:nth-child(8) .block-head img {
+  height: 5rem;
+}
+
+.block p {
+  padding: 0.5rem 1rem 1.5rem 1rem;
+}
+
+.block-img-7 {
+  width: 100%;
+  height: 7rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.block:nth-child(6) .block-img-7,
+.block:nth-child(9) .block-img-7 {
+  justify-content: flex-end;
+}
+
+.block-img-10 {
+  width: 100%;
+  height: 10rem;
+  align-self: flex-end;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.block-img-12 {
+  width: 100%;
+  height: 12rem;
+  align-self: flex-end;
+  margin-bottom: 1rem;
+}
+
+#fms-icon,
+#games-icon {
+  height: 6rem;
+}
+#dance-icon,
+#gymnastics-icon,
+#fitness-icon {
+  height: 10rem;
+  margin-right: 1.5rem;
+}
+#swim-icon,
+#oaa-icon {
+  height: 7rem;
+  margin-right: 1.5rem;
+}
+
+#athletics-icon {
+  width: 95%;
+  margin: 0.45rem 0.5rem 0rem 0.5rem;
+}
+
+.block:nth-child(10) {
+  background-color: #57B6DD;
+}
+
+.block:nth-child(10) p {
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 1320px) {
+  .spectrum,
+  .spectrum2 {
+    padding: 2rem 5rem;
+  }
+
+}
+
+@media only screen and (max-width: 1150px) {
+  .spectrum,
+  .spectrum2 {
+    padding: 2rem 5rem;
+  }
+}
+@media only screen and (max-width: 1045px) {
+.block2:nth-child(7) {
+  height: 18rem;
+}
+
+}
+
+@media only screen and (max-width: 871px) {
+  .spectrum,
+  .spectrum2 {
+    padding: 2rem 5rem;
+  }
+}
+@media only screen and (max-width: 832px) {
+  .spectrum,
+  .spectrum2 {
+    padding: 2rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .spectrum,
+  .spectrum2 {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 713px) {
+  .block,
+  .block2 {
+    height: 26rem;
+  }
+  .block:nth-child(3) {
+    height: 30rem;
+  }
+  .block:nth-child(5) {
+    height: 20rem;
+  }
+  .block .spectrum-img,
+  .block2 .spectrum-img {
+    margin-top: 0;
+  }
+  .block2:first-child {
+    padding-bottom: 2rem;
+  }
+  .block2:nth-child(2) {
+    height: 23rem;
+  }
+  .block2:nth-child(3) {
+    height: 21rem;
+  }
+  .block2:nth-child(6) {
+    height: 21rem;
+  }
+  .block2:nth-child(7) {
+    height: 18rem;
+  }
+
+}
+
+@media only screen and (max-width: 560px) {
+  .block-head img,
+  .block-head2 img {
+    height: 4.5rem;
+  }
+  .block2:nth-child(3) .block-head2 img,
+  .block2:nth-child(4) .block-head2 img {
+    height: 6rem;
+  }
+  .block,
+  .block2 {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 363px) {
+  .spectrum-img {
+    height: 24rem;
+    margin: 1.5rem;
+  }
+}
+
+  @media only screen and (max-width: 325px) {
+    .block-head img,
+    .block-head2 img {
+      height: 4rem;
+    }
+    .block2:nth-child(3) .block-head2 img,
+    .block2:nth-child(4) .block-head2 img {
+      height: 5.5rem;
+    }
+
+}
+
+/* Tables 1 & 2 */
+.tables1 {
+  background-color: #F7F4F1;
+}
+/* Chart 1 */
+.game-complexity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-complexity img {
+  height: 35rem;
+  margin: 1rem 15rem 2rem 15rem;
+}
+
+#chart1-mob {
+  display: none;
+}
+
+.game-complexity p {
+  align-self: flex-start;
+  margin-left: 15rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1352px) {
+  .game-complexity img {
+    height: 32rem;
+  }
+}
+@media only screen and (max-width: 1320px) {
+  .game-complexity p {
+    margin-left: 11rem;
+  }
+}
+@media only screen and (max-width: 1243px) {
+  .game-complexity img {
+    height: 29rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .game-complexity img {
+    height: 26rem;
+  }
+  .game-complexity p {
+    margin-left: 5rem;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .game-complexity img {
+    height: 23rem;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .game-complexity img {
+    height: 20rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .game-complexity p {
+    margin-left: 5rem;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .game-complexity img {
+    height: 17rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .game-complexity p {
+    margin-left: 1.5rem;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .game-complexity img {
+    height: 14rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .game-complexity img {
+    height: 15rem;
+  }
+  #chart1-desk {
+  display: none;
+  }
+  #chart1-mob {
+    display: block;
+  }
+}
+@media only screen and (max-width: 508px) {
+  .game-complexity img {
+    height: 15rem;
+  }
+}
+@media only screen and (max-width: 428px) {
+  .game-complexity img {
+    height: 14rem;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .game-complexity img {
+    height: 12rem;
+  }
+}
+
+/* Table 2 */
+.group-sizing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group-sizing img {
+  height: 11rem;
+  margin: 1rem 15rem 0rem 15rem;
+  background-color: white;
+}
+
+#chart2-mob {
+  display: none;
+}
+
+.group-sizing p {
+  align-self: flex-start;
+  margin-left: 15rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#tables1-txt {
+  padding: 2rem 15rem;
+}
+
+
+/* Diagram 1 */
+.continuum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#99D1F4, #fff);
+}
+
+.continuum img {
+  height: 18rem;
+  margin: 1rem 15rem 0rem 15rem;
+}
+
+#diagram1-mob {
+  display: none;
+}
+
+.continuum p {
+  align-self: flex-start;
+  margin-left: 15rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Time Allocation */
+.allocation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F7F4F1;
+  padding-bottom: 2rem;
+}
+
+.allocation-table img {
+  height: 35rem;
+  margin: 1rem 15rem 2rem 15rem;
+}
+
+#chart3-mob {
+  display: none;
+}
+
+.allocation p {
+  align-self: flex-start;
+  margin: 1rem 15rem;
+}
+
+/* Designing your own Curriculum */
+.design {
+  background-color: #BED63A;
+}
+
+.design .blueheader {
+  margin: 2rem 0 1rem 15rem;
+}
+
+.design p {
+  padding: 1rem 15rem;
+}
+
+.sample1,
+.sample2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sample1 p:first-child {
+  align-self: flex-start;
+}
+
+#map1-desk {
+  height: 28rem;
+  margin: 1rem 15rem 1rem 15rem;
+}
+
+#map1-mob {
+  display: none;
+}
+
+.sample2 p {
+  align-self: flex-start;
+}
+#map2-desk {
+  height: 12rem;
+  margin: 0 auto 2rem auto;
+}
+
+/* JH and SH */
+.crossroads {
+  height: 42rem;
+  background: url("../images/curriculum/CrossroadsBG.png") no-repeat center center;
+  background-size: cover;
+}
+
+.crossroads p {
+  padding: 2rem 15rem;
+}
+
+.pathways {
+  width: 55%;
+  height: 30rem;
+  border: 1px solid red;
+  float: right;
+  margin-right: 15rem;
+}
+
+.column-left {
+  width: 40%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid blue;
+}
+.pathway1 {
+  border: 1px solid red;
+  height: 15rem;
+  background-color: #fff;
+  color: #806E44;
+}
+
+.pathway1 p {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.pathway2 {
+  border: 1px solid red;
+  height: 12rem;
+  background-color: #8E6008;
+  color: white;
+}
+.pathway2 p {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.column-right {
+  width: 50%;
+  height: 30rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pathway3,
+.pathway4 {
+  border: 1px solid red;
+  width: 45%;
+  height: 30rem;
+  background-color: #715D2D;
+  color: #fff;
+}
+
+.pathway3 p,
+.pathway4 p {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+
+/* Conclusion */
+.conclusion {
+  background-color: #008CE3;
+  color: white;
+  padding: 2rem 15rem 3rem 15rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .conclusion .blueheader,
+  .conclusion-container {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .conclusion .blueheader,
+  .conclusion-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .conclusion .blueheader,
+  .conclusion-container {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .conclusion .blueheader {
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+  }
+  .conclusion-container {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
+
+/* References */
+.references {
+  padding: 3rem 16rem;
+}
+
+.references h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.references ol {
+  list-style-type: decimal;
+}
+
+.references ol li {
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 1320px) {
+  .references {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .references {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .references {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
