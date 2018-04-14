@@ -84,6 +84,11 @@ p, ol, li {
   font-weight: bold;
 }
 
+.bold-M {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 1051px) {
   .blueheader {
     height: 3rem;
@@ -146,7 +151,9 @@ p, ol, li {
   margin-right: 15rem;
   top: 6rem;
 }
-
+#map2 {
+  display: none;
+}
 .teaching-styles a:hover {
   text-decoration: underline;
 }
@@ -167,6 +174,7 @@ p, ol, li {
   }
   #map {
     margin-right: 5rem;
+    height: 8rem;
   }
   .curriculum-intro-why p {
     padding-left: 5rem;
@@ -184,33 +192,22 @@ p, ol, li {
   }
 
   #map {
-    height: 14rem;
+    height: 7rem;
     margin-right: 3rem;
     margin-top: 1rem;
     top: 4.5rem;
   }
 }
 
-@media only screen and (max-width: 621px) {
-    #map {
-      top: 0;
-    }
-}
-
-@media only screen and (max-width: 546px) {
+@media only screen and (max-width: 766px) {
     #map {
       display: none;
     }
 
     .curriculum-intro .blueheader {
-      display: none;
-    }
-    .curriculum-intro .blueheader-mob {
-      display: block;
       margin-left: 1.5rem;
       height: 2rem;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
+
     }
     .curriculum-intro-why p {
       padding-left: 1.5rem;
@@ -218,6 +215,25 @@ p, ol, li {
       padding-bottom: 1rem;
       padding-top: 0;
     }
+}
+@media only screen and (max-width: 476px) {
+  #map2 {
+    display: block;
+    height: 8rem;
+    margin: 1rem auto;
+  }
+}
+@media only screen and (max-width: 393px) {
+  .curriculum-intro .blueheader {
+    display: none;
+  }
+  .curriculum-intro .blueheader-mob {
+    display: block;
+    height: 2rem;
+    margin: 0 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
 }
 
 @media only screen and (max-width: 299px) {
@@ -233,13 +249,13 @@ p, ol, li {
   align-items: center;
   flex-wrap: wrap;
   background-color: #57B6DD;
-  padding: 2rem 10rem;
+  padding: 2rem 15rem;
 }
 
 .block {
   width: 18.5rem;
   height: 28rem;
-  margin: 1rem 1rem 2rem 0.5rem;
+  margin: 1rem 0.5rem 2rem 0.5rem;
   background-color: #BED63A;
   display: flex;
   flex-direction: column;
@@ -247,7 +263,6 @@ p, ol, li {
 }
 
 .activities p {
-  padding: 1rem 5rem 1rem 5rem;
   color: white;
 }
 
@@ -333,114 +348,52 @@ p, ol, li {
 
 .block:nth-child(10) p {
   color: #fff;
+  padding: 0;
 }
 
-
-@media only screen and (max-width: 1320px) {
-  .spectrum,
-  .spectrum2 {
-    padding: 2rem 5rem;
+@media only screen and (max-width: 1456px) {
+  #suggestions {
+    width: auto;
+    height: auto;
   }
-
+  .block:nth-child(10) {
+    margin: 1rem 0;
+  }
+}
+@media only screen and (max-width: 1320px) {
+  .activities {
+    padding: 2rem 11rem;
+  }
 }
 
 @media only screen and (max-width: 1150px) {
-  .spectrum,
-  .spectrum2 {
+  .activities {
     padding: 2rem 5rem;
   }
-}
-@media only screen and (max-width: 1045px) {
-.block2:nth-child(7) {
-  height: 18rem;
-}
-
 }
 
 @media only screen and (max-width: 871px) {
-  .spectrum,
-  .spectrum2 {
-    padding: 2rem 5rem;
+  .activities {
+    padding: 2rem 3rem;
   }
 }
-@media only screen and (max-width: 832px) {
-  .spectrum,
-  .spectrum2 {
-    padding: 2rem 1.5rem;
-  }
-}
+
 @media only screen and (max-width: 766px) {
-  .spectrum,
-  .spectrum2 {
+  .activities {
     padding: 2rem 1.5rem;
   }
 }
 
-@media only screen and (max-width: 713px) {
-  .block,
-  .block2 {
-    height: 26rem;
-  }
-  .block:nth-child(3) {
-    height: 30rem;
-  }
-  .block:nth-child(5) {
-    height: 20rem;
-  }
-  .block .spectrum-img,
-  .block2 .spectrum-img {
-    margin-top: 0;
-  }
-  .block2:first-child {
-    padding-bottom: 2rem;
-  }
-  .block2:nth-child(2) {
-    height: 23rem;
-  }
-  .block2:nth-child(3) {
-    height: 21rem;
-  }
-  .block2:nth-child(6) {
-    height: 21rem;
-  }
-  .block2:nth-child(7) {
-    height: 18rem;
-  }
-
-}
-
-@media only screen and (max-width: 560px) {
-  .block-head img,
-  .block-head2 img {
-    height: 4.5rem;
-  }
-  .block2:nth-child(3) .block-head2 img,
-  .block2:nth-child(4) .block-head2 img {
-    height: 6rem;
-  }
-  .block,
-  .block2 {
+@media only screen and (max-width: 685px) {
+  .block {
     height: auto;
   }
 }
 
-@media only screen and (max-width: 363px) {
-  .spectrum-img {
-    height: 24rem;
-    margin: 1.5rem;
-  }
-}
-
-  @media only screen and (max-width: 325px) {
-    .block-head img,
-    .block-head2 img {
+@media only screen and (max-width: 325px) {
+    .block-head img {
       height: 4rem;
     }
-    .block2:nth-child(3) .block-head2 img,
-    .block2:nth-child(4) .block-head2 img {
-      height: 5.5rem;
-    }
-
 }
 
 /* Tables 1 & 2 */
@@ -455,7 +408,7 @@ p, ol, li {
 }
 
 .game-complexity img {
-  height: 35rem;
+  height: 30rem;
   margin: 1rem 15rem 2rem 15rem;
 }
 
@@ -470,48 +423,40 @@ p, ol, li {
   margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 1352px) {
-  .game-complexity img {
-    height: 32rem;
-  }
-}
 @media only screen and (max-width: 1320px) {
   .game-complexity p {
     margin-left: 11rem;
   }
 }
-@media only screen and (max-width: 1243px) {
+@media only screen and (max-width: 1114px) {
   .game-complexity img {
-    height: 29rem;
+    height: 28rem;
   }
 }
 
 @media only screen and (max-width: 1150px) {
-  .game-complexity img {
-    height: 26rem;
-  }
   .game-complexity p {
     margin-left: 5rem;
   }
 }
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 990px) {
   .game-complexity img {
-    height: 23rem;
+    height: 26rem;
   }
 }
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 922px) {
   .game-complexity img {
-    height: 20rem;
+    height: 24rem;
   }
 }
 @media only screen and (max-width: 871px) {
   .game-complexity p {
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
 }
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 822px) {
   .game-complexity img {
-    height: 17rem;
+    height: 22rem;
   }
 }
 @media only screen and (max-width: 766px) {
@@ -519,36 +464,31 @@ p, ol, li {
     margin-left: 1.5rem;
   }
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 747px) {
   .game-complexity img {
-    height: 14rem;
+    height: 20rem;
   }
 }
-
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 683px) {
   .game-complexity img {
-    height: 15rem;
+    height: 18rem;
   }
+}
+@media only screen and (max-width: 615px) {
+  .game-complexity img {
+    height: 16rem;
+  }
+}
+@media only screen and (max-width: 580px) {
   #chart1-desk {
   display: none;
   }
   #chart1-mob {
     display: block;
+    margin-bottom: 1rem;
   }
-}
-@media only screen and (max-width: 508px) {
   .game-complexity img {
-    height: 15rem;
-  }
-}
-@media only screen and (max-width: 428px) {
-  .game-complexity img {
-    height: 14rem;
-  }
-}
-@media only screen and (max-width: 370px) {
-  .game-complexity img {
-    height: 12rem;
+    height: 22rem;
   }
 }
 
@@ -560,7 +500,7 @@ p, ol, li {
 }
 
 .group-sizing img {
-  height: 11rem;
+  height: 10rem;
   margin: 1rem 15rem 0rem 15rem;
   background-color: white;
 }
@@ -580,7 +520,84 @@ p, ol, li {
   padding: 2rem 15rem;
 }
 
-
+@media only screen and (max-width: 1320px) {
+  .group-sizing p {
+    margin-left: 11rem;
+  }
+  #tables1-txt {
+    padding: 2rem 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .group-sizing p {
+    margin-left: 5rem;
+  }
+  #tables1-txt {
+    padding: 2rem 5rem;
+  }
+}
+@media only screen and (max-width: 1114px) {
+  .group-sizing img {
+    height: 9.25rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .group-sizing img {
+    height: 8.5rem;
+  }
+}
+@media only screen and (max-width: 922px) {
+  .group-sizing img {
+    height: 7.75rem;
+  }
+}
+@media only screen and (max-width: 822px) {
+  .group-sizing img {
+    height: 7rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .group-sizing p {
+    margin-left: 3rem;
+  }
+  #tables1-txt {
+    padding: 2rem 3rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .group-sizing p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  #tables1-txt {
+    padding: 1rem 1.5rem 2rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 747px) {
+  .group-sizing img {
+    height: 6.5rem;
+  }
+}
+@media only screen and (max-width: 683px) {
+  .group-sizing img {
+    height: 5.75rem;
+  }
+}
+@media only screen and (max-width: 615px) {
+  .group-sizing img {
+    height: 5rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .group-sizing img {
+    height: 4.5rem;
+  }
+}
+@media only screen and (max-width: 489px) {
+  .group-sizing img {
+    height: 4rem;
+  }
+}
 /* Diagram 1 */
 .continuum {
   display: flex;
@@ -600,34 +617,173 @@ p, ol, li {
 
 .continuum p {
   align-self: flex-start;
-  margin-left: 15rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  padding: 2rem 15rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .continuum p {
+   padding: 2rem 11rem;
+ }
+}
+@media only screen and (max-width: 1150px) {
+  .continuum p {
+     padding: 2rem 5rem;
+   }
+}
+@media only screen and (max-width: 1114px) {
+  .continuum img {
+    height: 15rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .continuum img {
+    height: 13rem;
+  }
+}
+@media only screen and (max-width: 922px) {
+  .continuum img {
+    height: 12rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .continuum p {
+     padding: 2rem 3rem;
+   }
+}
+@media only screen and (max-width: 822px) {
+  .continuum img {
+    height: 11rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .continuum p {
+     padding: 2rem 1.5rem;
+   }
+ }
+ @media only screen and (max-width: 747px) {
+   .continuum img {
+     height: 10rem;
+ }
+}
+ @media only screen and (max-width: 683px) {
+   .continuum img {
+     height: 9rem;
+ }
+}
+ @media only screen and (max-width: 615px) {
+   .continuum img {
+     height: 8rem;
+ }
+}
+@media only screen and (max-width: 580px) {
+  #diagram1-desk {
+    display: none;
+  }
+  #diagram1-mob {
+    display: block;
+    height: 30rem;
+  }
 }
 
 /* Time Allocation */
 .allocation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-color: #F7F4F1;
   padding-bottom: 2rem;
 }
 
+.allocation-table {
+  display: flex;
+  justify-content: center;
+}
 .allocation-table img {
-  height: 35rem;
-  margin: 1rem 15rem 2rem 15rem;
+  height: 33rem;
 }
 
 #chart3-mob {
   display: none;
 }
 
-.allocation p {
+.allocation p,
+.allocation-table p {
   align-self: flex-start;
-  margin: 1rem 15rem;
+  padding: 1rem 15rem;
 }
 
+@media only screen and (max-width: 1320px) {
+  .allocation p,
+  .allocation-table p  {
+   padding: 1rem 11rem;
+ }
+}
+@media only screen and (max-width: 1150px) {
+  .allocation p,
+  .allocation-table p {
+     padding: 1rem 5rem;
+   }
+}
+@media only screen and (max-width: 1114px) {
+  .allocation-table img {
+    height: 30rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .allocation-table img {
+    height: 27rem;
+  }
+}
+@media only screen and (max-width: 922px) {
+  .allocation-table img {
+    height: 24rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .allocation p,
+  .allocation-table p {
+     padding: 1rem 3rem;
+   }
+}
+@media only screen and (max-width: 766px) {
+  .allocation p,
+  .allocation-table p {
+     padding: 1rem 1.5rem;
+   }
+ }
+ @media only screen and (max-width: 747px) {
+   .allocation-table img {
+     height: 21rem;
+   }
+  }
+@media only screen and (max-width: 683px) {
+  .allocation-table img {
+    height: 19rem;
+  }
+}
+@media only screen and (max-width: 615px) {
+  .allocation-table img {
+    height: 17rem;
+  }
+ }
+@media only screen and (max-width: 508px) {
+   #chart3-desk {
+     display: none;
+   }
+   #chart3-mob {
+     display: block;
+   }
+   .allocation-table img {
+     height: 46rem;
+   }
+  }
+@media only screen and (max-width: 404px) {
+  .allocation-table img {
+      height: 43rem;
+    }
+   }
+@media only screen and (max-width: 374px) {
+ .allocation-table img {
+   height: 38rem;
+  }
+}
 /* Designing your own Curriculum */
 .design {
   background-color: #BED63A;
@@ -635,6 +791,9 @@ p, ol, li {
 
 .design .blueheader {
   margin: 2rem 0 1rem 15rem;
+}
+.design .blueheader-mob {
+  display: none;
 }
 
 .design p {
@@ -653,7 +812,7 @@ p, ol, li {
 }
 
 #map1-desk {
-  height: 28rem;
+  height: 26rem;
   margin: 1rem 15rem 1rem 15rem;
 }
 
@@ -669,6 +828,168 @@ p, ol, li {
   margin: 0 auto 2rem auto;
 }
 
+@media only screen and (max-width: 1320px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 11rem;
+  }
+  .design p {
+    padding: 1rem 11rem;
+  }
+  #map1-desk {
+    margin: 1rem 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 5rem;
+  }
+  .design p {
+    padding: 1rem 5rem;
+  }
+  #map1-desk {
+    margin: 1rem 5rem;
+  }
+}
+@media only screen and (max-width: 1114px) {
+  #map1-desk {
+    height: 23rem;
+  }
+  #map2-desk {
+    height: 11rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  #map1-desk {
+    height: 21rem;
+  }
+  #map2-desk {
+    height: 10rem;
+  }
+}
+@media only screen and (max-width: 922px) {
+  #map1-desk {
+    height: 19rem;
+  }
+  #map2-desk {
+    height: 9.5rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 3rem;
+  }
+  .design p {
+    padding: 1rem 3rem;
+  }
+  #map1-desk {
+    margin: 1rem 3rem;
+  }
+}
+@media only screen and (max-width: 822px) {
+  #map1-desk {
+    height: 17rem;
+  }
+  #map2-desk {
+    height: 9rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 1.5rem;
+  }
+  .design p {
+    padding: 1rem 1.5rem;
+  }
+  #map1-desk {
+    margin: 1rem 1.5rem;
+  }
+ }
+@media only screen and (max-width: 747px) {
+ #map1-desk {
+   height: 16rem;
+ }
+ #map2-desk {
+     height: 8.5rem;
+ }
+}
+@media only screen and (max-width: 683px) {
+ #map1-desk {
+   height: 15rem;
+ }
+ #map2-desk {
+     height: 8rem;
+ }
+}
+@media only screen and (max-width: 643px) {
+ #map1-desk {
+   height: 14rem;
+ }
+ #map2-desk {
+     height: 7.5rem;
+ }
+}
+@media only screen and (max-width: 615px) {
+ #map1-desk {
+   height: 13rem;
+ }
+ #map2-desk {
+     height: 7rem;
+ }
+}
+
+@media only screen and (max-width: 550px) {
+ #map1-desk {
+   height: 12rem;
+ }
+ #map2-desk {
+     height: 6.5rem;
+ }
+}
+@media only screen and (max-width: 509px) {
+ #map1-desk {
+   height: 11rem;
+ }
+ #map2-desk {
+     height: 6rem;
+ }
+}
+@media only screen and (max-width: 478px) {
+ #map1-desk {
+   height: 10rem;
+ }
+ #map2-desk {
+     height: 5.5rem;
+ }
+}
+@media only screen and (max-width: 459px) {
+  .design .blueheader {
+    display: none;
+  }
+  .design .blueheader-mob {
+    display: block;
+    height: 2rem;
+    margin: 0 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+  }
+}
+@media only screen and (max-width: 439px) {
+ #map1-desk {
+   height: 9rem;
+ }
+ #map2-desk {
+     height: 4.8rem;
+ }
+}
+@media only screen and (max-width: 396px) {
+ #map1-desk {
+   height: 8rem;
+ }
+ #map2-desk {
+     height: 4.2rem;
+ }
+}
+
 /* JH and SH */
 .crossroads {
   height: 42rem;
@@ -681,9 +1002,9 @@ p, ol, li {
 }
 
 .pathways {
+  display: flex;
   width: 55%;
   height: 30rem;
-  border: 1px solid red;
   float: right;
   margin-right: 15rem;
 }
@@ -693,54 +1014,193 @@ p, ol, li {
   height: 30rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  border: 1px solid blue;
+  justify-content: center;
 }
+
 .pathway1 {
-  border: 1px solid red;
-  height: 15rem;
+  height: 10rem;
   background-color: #fff;
   color: #806E44;
+  margin-bottom: 2rem;
 }
 
 .pathway1 p {
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .pathway2 {
-  border: 1px solid red;
-  height: 12rem;
+  height: 8rem;
   background-color: #8E6008;
   color: white;
 }
 .pathway2 p {
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .column-right {
-  width: 50%;
+  width: 60%;
   height: 30rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
 }
 
 .pathway3,
 .pathway4 {
-  border: 1px solid red;
   width: 45%;
-  height: 30rem;
+  height: 20rem;
   background-color: #715D2D;
   color: #fff;
+}
+
+.pathway4 {
+  background-color: #927144;
+  margin-left: 2rem;
 }
 
 .pathway3 p,
 .pathway4 p {
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
+@media only screen and (max-width: 1320px) {
+  .crossroads p {
+    padding: 2rem 11rem;
+  }
+  .pathways {
+    margin-right: 11rem;
+  }
+  .pathway1 p,
+  .pathway2 p,
+  .pathway3 p,
+  .pathway4 p {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 1248px) {
+  .pathways {
+  width: 75%;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .crossroads p {
+    padding: 2rem 5rem;
+  }
+  .pathways {
+    margin-right: 5rem;
+  }
+  .pathway1 p,
+  .pathway2 p,
+  .pathway3 p,
+  .pathway4 p {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .pathways {
+    width: 85%;
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .crossroads p {
+    padding: 2rem 3rem;
+  }
+  .pathways {
+    margin-right: 3rem;
+  }
+  .pathway1 p,
+  .pathway2 p,
+  .pathway3 p,
+  .pathway4 p {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 805px) {
+  .pathway1,
+  .pathway2 {
+    padding-bottom: 1rem;
+  }
+  .pathway3,
+  .pathway4 {
+    height: 22rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .crossroads p {
+    padding: 2rem 1.5rem;
+  }
+  .pathways {
+    margin-right: 1.5rem;
+  }
+  .pathway1 p,
+  .pathway2 p,
+  .pathway3 p,
+  .pathway4 p {
+    padding: 1rem;
+  }
+ }
+ @media only screen and (max-width: 727px) {
+   .crossroads {
+     height: auto;
+   }
+   .pathways {
+     display: block;
+     height: auto;
+     margin-left: 2rem;
+   }
+   .column-left,
+   .column-right {
+     width: auto;
+     height: auto;
+   }
+   .column-right {
+     flex-direction: column;
+     margin-left: 0;
+   }
+   .pathway1,
+   .pathway2,
+   .pathway3,
+   .pathway4 {
+     height: auto;
+     width: auto;
+     margin-bottom: 1.5rem;
+   }
+   .pathway2 {
+     margin-left: 1.5rem;
+   }
+   .pathway3 {
+     margin-left: 3rem;
+   }
+   .pathway4 {
+     margin-left: 4.5rem;
+   }
+ }
+@media only screen and (max-width: 570px) {
+  .pathway1,
+  .pathway2,
+  .pathway3,
+  .pathway4 {
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 547px) {
+  .pathway1 p,
+  .pathway2 p,
+  .pathway3 p,
+  .pathway4 p {
+    font-size: 0.85rem;
+  }
+  .bold-M {
+    font-size: 1rem;
+  }
+}
 
 /* Conclusion */
 .conclusion {
@@ -750,34 +1210,28 @@ p, ol, li {
 }
 
 @media only screen and (max-width: 1320px) {
-  .conclusion .blueheader,
-  .conclusion-container {
+  .conclusion {
     padding-left: 11rem;
     padding-right: 11rem;
   }
 }
 @media only screen and (max-width: 1150px) {
-  .conclusion .blueheader,
-  .conclusion-container {
+  .conclusion {
     padding-left: 5rem;
     padding-right: 5rem;
   }
 }
 
 @media only screen and (max-width: 871px) {
-  .conclusion .blueheader,
-  .conclusion-container {
+  .conclusion {
     padding-left: 3rem;
     padding-right: 2rem;
   }
 }
 
 @media only screen and (max-width: 547px) {
-  .conclusion .blueheader {
+  .conclusion {
     padding: 1.5rem 1.5rem 1rem 1.5rem;
-  }
-  .conclusion-container {
-    padding: 0rem 1.5rem 1.5rem 1.5rem;
   }
 }
 
@@ -799,6 +1253,12 @@ p, ol, li {
 
 .references ol li {
   margin-bottom: 1rem;
+}
+.references a:link,
+.references a:visited,
+.references a:hover,
+.references a:active {
+  color: #008CE3;
 }
 @media only screen and (max-width: 1320px) {
   .references {
