@@ -3,6 +3,10 @@
     src: url('../fonts/Futura.ttc') format('truetype');
 }
 
+@-ms-viewport {
+  width: device-width;
+}
+
 html {
   font-family: 'futura', sans-serif;
   color: #58595B;

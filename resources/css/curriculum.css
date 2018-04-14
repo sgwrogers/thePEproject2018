@@ -3,6 +3,10 @@
     src: url('../fonts/Futura.ttc') format('truetype');
 }
 
+@-ms-viewport {
+  width: device-width;
+}
+
 html {
   font-family: 'futura', sans-serif;
   color: #58595B;
@@ -1207,6 +1211,20 @@ p, ol, li {
   background-color: #008CE3;
   color: white;
   padding: 2rem 15rem 3rem 15rem;
+}
+
+.conclusion a:link,
+.conclusion a:visited,
+.conclusion a:hover,
+.conclusion a:active {
+  color: white;
+}
+
+.conclusion a:link,
+.conclusion a:visited,
+.conclusion a:hover,
+.conclusion a:active {
+  color: white;
 }
 
 @media only screen and (max-width: 1320px) {
