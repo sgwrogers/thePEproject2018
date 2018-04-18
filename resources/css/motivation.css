@@ -258,7 +258,10 @@ p, ol, li {
 
 @media only screen and (max-width: 524px) {
   #ilovePE {
-    height: 5rem;
+    display: block;
+    height: 10rem;
+    float: none;
+    margin: 1rem auto;
   }
 }
 

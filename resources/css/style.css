@@ -87,48 +87,88 @@ nav select {
 }
 
 nav select:hover {
-    color: #008CE3;
-    background: url("../images/Arrow2.png") no-repeat left center;
-    background-size: contain;
-    }
+  color: #008CE3;
+  background: url("../images/Arrow2.png") no-repeat left center;
+  background-size: contain;
+}
 
+.dropdown {
+  display: none;
+  margin-right: 1.4rem;
+}
+.dropbtn {
+  background-color: white;
+  color: #58595B;
+  padding: 16px;
+  font-size: 16px;
+  font-family: 'futura', sans-serif;
+  border: none;
+}
+.dropbtn i {
+  color: #008CE3;
+}
+
+.dropdown i:hover {
+  color: #58595B;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 70px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #008CE3;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+background-color: #008CE3;
+color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
 
 @media only screen and (max-width: 878px){
   nav span {
     display: none;
   }
-
-  nav select {
-  display: inline-block;
-  background-color: none;
-  color: #58595B;
-  font-family: 'futura', sans-serif;
-  font-size: 1rem;
-  border: none;
-  padding: 1rem 0.75rem 1rem 2rem;
-  text-align: center;
-}
-
-  select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  text-indent: 1px; /*dropdown arrow still removed if this is code and one below is erased - maybe for different browser */
-  text-overflow: '';
-}
-
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
 }
 
 @media only screen and (max-width: 424px) {
-  nav {
-    display: none;
-  }
-
   .logo {
-    width: 100%;
+    width: 60%;
+    padding-left: 1rem;
     text-align: center;
   }
-}
 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 1.5rem;
+  }
+}
 @media only screen and (max-width: 311px) {
   .logo img {
     height: 5rem;
@@ -342,6 +382,7 @@ nav select:hover {
 @media only screen and (max-width: 872px) {
   .container {
     height: auto;
+    padding-bottom: 2rem;
   }
   .about-left {
     display: none;
